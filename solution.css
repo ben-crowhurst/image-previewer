@@ -1,0 +1,25 @@
+.dropzone {
+  height: 300px;
+  width: 300px;
+  margin: 100px auto;
+  position: relative;
+  text-align: center;
+  border-radius: 15px;
+  border: 10px dotted #0860A1;
+  background-color: #DCDCDC;
+  font: Arial, Helvetica, sans-serif;
+}
+
+.dropzone.dropped {
+  background: #222;
+  border: 10px dotted #0C3;
+}
+
+.dz-success-mark, .dz-error-mark {
+  display: none;
+}
+
+.dropzone img {
+  border-radius: 10px;
+  vertical-align: middle;
+}
